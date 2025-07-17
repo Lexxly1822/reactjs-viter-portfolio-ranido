@@ -50,8 +50,8 @@ const Home = () => {
               <h3 className="text-3xl font-bold mb-4">Who Am I?</h3>
               <p className="text-gray-300 mb-6">
                 Hi, I'm Leslie Rose R. Ranido, a BS Computer Science student at
-                Bicol University Polangui, passionate about web development,
-                clean code, and discovering the world of technology.
+                Bicol University Polangui, passionate about web development, and
+                discovering the world of technology.
               </p>
             </div>
           </div>
