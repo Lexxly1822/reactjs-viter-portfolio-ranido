@@ -10,7 +10,7 @@ const Header = () => {
           {/* Logo */}
           <Link
             to="/"
-            className="text-2xl font-extrabold bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 bg-clip-text text-transparent"
+            className="text-2xl font-extrabold bg-gradient-to-r from-red-500 via-black-500 to-red-950 bg-clip-text text-transparent"
           >
             LRR.
           </Link>
@@ -36,10 +36,10 @@ const Header = () => {
               Education
             </Link>
             <Link
-              to="/certification"
+              to="/projects"
               className="text-gray-300 hover:text-red-500 transition duration-300 font-medium"
             >
-              Certification
+              Projects
             </Link>
             <Link
               to="/contact"
@@ -49,7 +49,7 @@ const Header = () => {
             </Link>
 
             <Link
-              to="/contact"
+              to="/"
               className="ml-4 bg-red-600 hover:bg-red-700 text-white font-semibold py-1.5 px-4 rounded transition"
             >
               Let's Talk
@@ -120,11 +120,11 @@ const Header = () => {
               </li>
               <li>
                 <Link
-                  to="/certification"
+                  to="/projects"
                   onClick={() => setIsOpen(false)}
                   className="block hover:text-red-500"
                 >
-                  Certification
+                  Projects
                 </Link>
               </li>
               <li>
@@ -138,7 +138,7 @@ const Header = () => {
               </li>
               <li>
                 <Link
-                  to="/contact"
+                  to="/letstalk"
                   className="inline-block bg-red-600 text-white font-medium py-2 px-4 rounded hover:bg-red-700 mt-2"
                 >
                   Let's Talk
