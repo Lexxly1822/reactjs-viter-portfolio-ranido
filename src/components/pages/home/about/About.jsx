@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
   return (
@@ -19,12 +19,15 @@ const About = () => {
             <h2 className="text-red-500 text-sm mb-2">About Me</h2>
             <h3 className="text-3xl font-bold mb-4">Who Am I?</h3>
             <p className="text-gray-300 mb-6">
-              Hi, I'm Leslie Rose R. Ranido, a BS Computer Science student at
-              Bicol University Polangui, passionate about web development, and
-              discovering the world of technology.
+              Hello, my name is Leslie Rose R. Ranido, and I am a Incoming 4th
+              year, BS Computer Science student at BU Polangui who is interested
+              in coding and discovering the wonderful world of technology.
+              Outside of academics, I enjoy reading stories on Wattpad, watching
+              K-dramas, and exploring scenic locations to capture and collect
+              beautiful sunset pictures and views.
             </p>
             <div className="flex gap-5 mt-3 md:mt-0  items-center">
-              <ul >
+              <ul>
                 <li className="text-white/60 hover:text-white cursor-pointer">
                   <svg
                     stroke="currentColor"
@@ -94,7 +97,6 @@ const About = () => {
       </section>
     </>
   );
-}
+};
 
-export default About
-
+export default About;

@@ -6,6 +6,7 @@ import Education from "./education/Education";
 import Skills from "./skills/Skills";
 import Projects from "./projects/Projects";
 import Footer from "../../partials/Footer";
+import Contact from "./contact/Contact";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
        <Education/>
        <Skills/>
        <Projects/>
+       <Contact/>
        <Footer/>
 
 
